@@ -91,7 +91,7 @@ const Products = () => {
         </div>
        
       </div>
-      <div className="text-3xl cursor-pointer text-black absolute bottom-20 right-10 hover:rotate-[360deg] duration-500 z-[99999]">
+      <div className="text-3xl max-[1205px]:hidden cursor-pointer text-black absolute bottom-20 right-10 hover:rotate-[360deg] duration-500 z-[99999]">
   <ScrollLink
     to="banner"  // Replace with the ID of the next section you want to scroll to
     smooth={true}

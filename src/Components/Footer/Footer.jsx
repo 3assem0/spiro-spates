@@ -149,7 +149,7 @@ export default function Footer() {
             </div>
         </div>
     </div>
-    <div className="text-3xl cursor-pointer text-black absolute bottom-5 right-10 hover:rotate-[360deg] duration-500 z-[99999]">
+    <div className="text-3xl cursor-pointer max-[1205px]:hidden text-black absolute bottom-5 right-10 hover:rotate-[360deg] duration-500 z-[99999]">
   <ScrollLink
     to="home"  // Replace with the ID of the next section you want to scroll to
     smooth={true}
