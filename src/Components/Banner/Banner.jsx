@@ -30,7 +30,7 @@ const Banner = () => {
           />
         </div>
         {/* Banner Text info section */}
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center ">
           <div className="text-center md:text-left space-y-4 lg:max-w-[450px] mb-5">
             <motion.h1
               variants={fadeUp(0.7)}
